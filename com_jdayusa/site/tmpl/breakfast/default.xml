@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_JDAYUSA_TITLE_LIST_VIEW_BREAKFAST" option="View">
+        <message>
+                        <![CDATA[COM_JDAYUSA_TITLE_LIST_VIEW_BREAKFAST_DESC]]>
+        </message>
+	</layout>
+	
+</metadata>

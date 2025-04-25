@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+    <name>com_jdayusa</name>
+    <creationDate>2025-04-24</creationDate>
+    <copyright>2025 interGen</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>interGen</author>
+    <authorEmail>developer@intergen.org</authorEmail>
+    <authorUrl>http://intergen.org</authorUrl>
+    <version>1.0.0</version>
+    <description>Simple Joomla 5 MVC component using src/ structure and PSR-4 best practices.</description>
+    <namespace path="src">Intergen\Component\Jdayusa</namespace>
+
+    <files folder="site">
+        <folder>src</folder>
+        <folder>forms</folder>
+        <folder>tmpl</folder>
+    </files>
+    <media destination="com_jdayusa" folder="media">
+        <folder>css</folder>
+        <folder>js</folder>
+        <filename>joomla.asset.json</filename>
+    </media>
+    <languages folder="site/languages">
+        
+			<language tag="en-GB">en-GB/com_jdayusa.ini</language>
+    </languages>
+    <administration>
+        
+        <submenu>
+            
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            
+            <folder>src</folder>
+            <folder>tmpl</folder>
+            <folder>services</folder>
+            <folder>presets</folder>
+            <folder>sql</folder>
+        </files>
+        <languages folder="administrator/languages">
+            
+			<language tag="en-GB">en-GB/com_jdayusa.ini</language>
+			<language tag="en-GB">en-GB/com_jdayusa.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+    <plugins>
+    </plugins>
+    
+</extension>

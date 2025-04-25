@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="4.0">
+    <name>PLG_SYSTEM_JDAYUSA</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_JDAYUSA_DESC</description>
+    <files>
+        <filename plugin="jdayusa">jdayusa.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_jdayusa.ini</language>
+    </languages>
+</extension>
